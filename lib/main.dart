@@ -1,4 +1,10 @@
+import 'package:belajar/column_widget.dart';
 import 'package:belajar/container_widget.dart';
+import 'package:belajar/latihan1.dart';
+import 'package:belajar/latihan2.dart';
+import 'package:belajar/latihan3.dart';
+import 'package:belajar/row_column.dart';
+import 'package:belajar/row_widget.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,12 +22,12 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           centerTitle: true,
-          backgroundColor: Color.fromARGB(255, 255, 123, 0),
+          backgroundColor: Color.fromARGB(255, 255, 238, 0),
           title: Text(
             "Belajar Flutter"
             ),
         ),
-        body: BelajarContainer(),
+        body:Latihan3(),
         ),
       );
   }

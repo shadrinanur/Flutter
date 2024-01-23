@@ -9,13 +9,9 @@ class BelajarContainer extends StatelessWidget {
     return Container(
       width: double.infinity,
       height: double.infinity,
-      // margin: EdgeInsets.all(10),
-      // padding: EdgeInsets.all(10),
       decoration: BoxDecoration(
-        // color: Colors.blueGrey,
         gradient: LinearGradient(colors: [Colors.orange, Colors.yellow]
         ),
-        // borderRadius: BorderRadius.circular(10),
       ),
       child: Container(
         width: 200,
