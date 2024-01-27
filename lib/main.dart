@@ -1,5 +1,9 @@
 import 'package:belajar/column_widget.dart';
 import 'package:belajar/container_widget.dart';
+import 'package:belajar/gridview/grid_basic.dart';
+import 'package:belajar/gridview/grid_builder.dart';
+import 'package:belajar/gridview/grid_count.dart';
+import 'package:belajar/gridview/latihan1_grid.dart';
 import 'package:belajar/latihan1.dart';
 import 'package:belajar/latihan2.dart';
 import 'package:belajar/latihan3.dart';
@@ -31,7 +35,7 @@ class MyApp extends StatelessWidget {
             "Belajar Flutter"
             ),
         ),
-        body: Latihan4(),
+        body: gridlatihan(),
         ),
       );
   }
